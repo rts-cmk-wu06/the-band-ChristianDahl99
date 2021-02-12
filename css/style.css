@@ -1,0 +1,197 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* ---------------- text og font ---------------- */
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+p {
+    line-height: 1.5;
+}
+
+.band_medlemmer_navne {
+    line-height: 30%;
+    margin-top: 50px;
+}
+
+.bookede_koncerter_overskrift {
+    margin-top: 50px;
+}
+
+.bookede_koncerter, .bookede_koncerter_overskrift {
+    line-height: 70%;
+}
+
+/* ------------------- layout ------------------- */
+
+header {
+    background-image: url('../img/banner.jpg');
+    height: 249px;
+}
+
+header nav {
+    width: 1184px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+main {
+    width: 1184px;
+    margin: 0 auto;
+    padding: 48px 0;
+}
+
+footer {
+    height: 80px;
+    background-image: url('../img/banner_footer.jpg');
+}
+
+footer div {
+    width: 1184px;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* ----------------- navigation ----------------- */
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    align-self: flex-end;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav img {
+    margin: 20px 0;
+}
+
+nav a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav li a {
+    margin-left: 50px;
+    color: black;
+}
+
+nav li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* ---------- index.html main content ----------- */
+
+.article_home {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* -------- medlemmer.html main content --------- */
+
+.article_medlemmer {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ----------- live.html main content ----------- */
+
+.article_live {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ------- merchandise.html main content -------- */
+
+.article_merchandise {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------- preview.html main content ---------- */
+
+.section_preview_h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+.h1_preview {
+    line-height: 0.1;
+}
+
+.article_preview_box {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.p_article_preview_text {
+    width: 50%;
+    text-align: center;
+    padding: 24px;
+}
+
+.section_preview_iframe {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.iframe_video_1, .iframe_video_2 {
+    width: 560px; 
+    height: 315px;
+}
+
+/* ---------------- main content ---------------- */
+
+article section {
+    width: 40%;
+}
+
+article figure {
+    width: 58%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+figure img {
+    margin-bottom: 15px;
+}
+
+figure img:nth-last-child(-n+2) {
+    margin-bottom: 0;
+}
+
+/* --------------- footer content --------------- */
+
+.phone_a {
+    text-decoration: none;
+}
+
+.preview_footer {
+    margin-top: 75px;
+}
+
+footer img {
+    margin-left: 32px;
+}
